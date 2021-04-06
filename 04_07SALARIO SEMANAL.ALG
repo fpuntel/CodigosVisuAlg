@@ -1,12 +1,12 @@
 Algoritmo "salario semanal"
 
 Var
-// Seção de Declarações das variáveis 
+// SeÃ§Ã£o de DeclaraÃ§Ãµes das variÃ¡veis 
 totalDeHoras: inteiro
 salario: real
 
 Inicio
-// Seção de Comandos, procedimento, funções, operadores, etc... 
+// SeÃ§Ã£o de Comandos, procedimento, funÃ§Ãµes, operadores, etc... 
 
 escreva("Total de horas trabalhadas: ")
 leia(totalDeHoras)
