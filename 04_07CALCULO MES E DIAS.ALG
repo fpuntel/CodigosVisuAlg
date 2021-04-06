@@ -1,13 +1,13 @@
 Algoritmo "calculo mes e dias"
 
 Var
-// Seção de Declarações das variáveis 
+// SeÃ§Ã£o de DeclaraÃ§Ãµes das variÃ¡veis 
 idade: inteiro
 mes: inteiro
 dias: inteiro
 
 Inicio
-// Seção de Comandos, procedimento, funções, operadores, etc... 
+// SeÃ§Ã£o de Comandos, procedimento, funÃ§Ãµes, operadores, etc... 
 
 escreva("Qual a sua idade?")
 leia(idade)
