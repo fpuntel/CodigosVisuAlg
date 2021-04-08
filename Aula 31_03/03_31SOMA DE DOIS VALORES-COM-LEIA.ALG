@@ -1,5 +1,5 @@
 Algoritmo "Soma de dois valores"
-// Disciplina   : [Linguagem e Lógica de Programação] 
+// Disciplina   : [Linguagem e LÃ³gica de ProgramaÃ§Ã£o] 
 // Professor   : Antonio Carlos Nicolodi 
 
 Var
@@ -17,7 +17,7 @@ leia(segundo)
 
 resultado <- primeiro + segundo
 
-escreval("O resultado da soma é: ", resultado, " da soma")
+escreval("O resultado da soma Ã©: ", resultado, " da soma")
 
 
 Fimalgoritmo
