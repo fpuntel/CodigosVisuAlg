@@ -1,7 +1,7 @@
 Algoritmo "Teste"
 
 Var
-// Seção de Declarações das variáveis 
+// SeÃ§Ã£o de DeclaraÃ§Ãµes das variÃ¡veis 
 valor: real
 idade: inteiro
 nome: caractere
