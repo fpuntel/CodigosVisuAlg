@@ -5,4 +5,4 @@ Neste repositório você encontrará códigos desenvolvidos no VisuAlg, ferramen
 Link para execução do VisuAlg: https://youtu.be/ipOi-jzv6Zw 
 
 **Vídeos com resoluções**:
-- Exercícios iniciais: https://youtu.be/UUzQuvedlmI
+- Exercícios iniciais (Lista 31_03): https://youtu.be/UUzQuvedlmI
