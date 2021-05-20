@@ -1,0 +1,67 @@
+Algoritmo "Pesquisa do ibope"
+
+Var
+pessoas: inteiro
+sexo: caractere
+opiniao, sim, nem, mSim, nNao: inteiro
+mulheres, homens: inteiro
+mediaMulheres, mediaHomens: real
+
+Inicio
+
+pessoas <- 0
+sim <- 0
+nem <- 0
+mSim <- 0
+nNao <- 0
+mulheres <- 0
+homens <- 0
+
+enquanto pessoas < 20 faca
+         escreva("Qual seu sexo?")
+         leia(sexo)
+         
+         escreva("Você gostou do produto? (1 - sim | 2 - não")
+         leia(opiniao)
+         
+         se opiniao = 1 entao
+              sim <- sim + 1
+         fimse
+
+         se opiniao = 2 entao
+              nem <- nem + 1
+         fimse
+         
+         se (sexo = "f") e (opiniao = 1) entao
+              mSim <- mSim + 1
+         fimse
+         
+         se (sexo = "m") e (opiniao = 2) entao
+            nNao <- nNao + 1
+         fimse
+         
+         se sexo = "m" entao
+            homens <- homens + 1
+         senao
+            mulheres <- mulheres + 1
+         fimse
+
+         pessoas <- pessoas + 1
+fimenquanto
+
+escreva("Total de pessoas que gostaram: ", sim)
+escreva("Total de pessoas que nao gostaram: ", nem)
+
+se mulheres > 0 entao
+   mediaMulheres <- (mSim * 100) / mulheres
+   escreva("Porcentagem de mulheres que responderam sim: ", mediaMulheres)
+fimse
+
+se homens > 0 entao
+   mediaHomens <- (nNao * 100) / homens
+   escreva("Porcentagem de homens que responderam sim: ", mediaHomens)
+fimse
+
+
+
+Fimalgoritmo
