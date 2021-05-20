@@ -1,0 +1,52 @@
+Algoritmo "Eleicoes"
+
+Var
+candidatoA, candidatoB: inteiro
+totalVotos: inteiro
+nulo, branco, voto: inteiro
+
+Inicio
+
+totalVotos <- 0
+candidatoA <- 0
+candidatoB <- 0
+branco <- 0
+nulo <- 0
+repita
+   escreval("ELEICOES")
+   escreval("1 - CANDIDATO A")
+   escreval("2 - CANDIDATO B")
+   escreval("3 - BRANCO")
+   escreval("QUAL SEU VOTO?")
+   leia(voto)
+   
+   escolha voto
+           caso 1
+                candidatoA <- candidatoA + 1
+           caso 2
+                candidatoB <- candidatoB + 1
+           caso 3
+                branco <- branco + 1
+           outrocaso
+                nulo <- nulo + 1
+   fimescolha
+
+   totalVotos <- totalVotos + 1
+ate totalVotos = 20
+
+escreval("Total de votos do candidato A: ", candidatoA)
+escreval("Total de votos do candidato B: ", candidatoB)
+escreval("Total de votos nulo: ", nulo)
+escreval("Total de votos em branco: ", branco)
+
+se candidatoA > candidatoB entao
+     escreval("VENCEDOR candidato A")
+senao
+     se candidatoA < candidatoB entao
+           escreval("VENCEDOR candidato B")
+           senao
+                escreval("SEGUNDO TURNO")
+     fimse
+fimse
+
+Fimalgoritmo
